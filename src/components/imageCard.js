@@ -1,6 +1,6 @@
 import React from 'react';
 
-const imageCard = ({ image }) => {
+const ImageCard = ({ image }) => {
     const tags = image.tags.split(',');
 
     return (
@@ -38,4 +38,4 @@ const imageCard = ({ image }) => {
     )
 };
 
-export default imageCard;
+export default ImageCard;
